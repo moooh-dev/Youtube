@@ -1,0 +1,155 @@
+.header {
+  height: 55px;
+  display: flex;
+  background-color: white;
+  justify-content:space-between;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color:  rgb(228, 228, 228);
+  z-index: 100;
+  margin-bottom:0px;
+}
+
+.left-sec {
+  display: flex;
+  align-items: center;
+}
+
+.hamburger-menu{
+  height: 25px;
+  margin-left:24px;
+  margin-right:20px;
+}
+
+.youtube-logo{
+  height: 20px;
+}
+
+.mid-sec {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin-left:70px;
+  margin-right:35px;
+  max-width:500px;
+}
+
+.sbar{
+  flex: 1;
+  height: 36px;
+  font-size:16px;
+  border: 1px solid rgb(192, 192, 192);
+  border-radius: 2px;
+  box-shadow:inset 1px 2px 3px rgba(77, 64, 64, 0.05);
+  padding-left: 10px;
+  width: 0px;
+}
+
+.sbar::placeholder{
+  font-size: 16px;
+  padding-left: 0px;
+}
+
+.search-icon{
+  height:25px;
+}
+
+.search-bt{
+  height:40px;
+  width:66px;
+  background-color: rgb(240, 240, 240);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(192, 192, 192);
+  margin-left: -1px;
+  margin-right: 10px;
+}
+
+.search-bt,
+.voice-bt,
+.last-bts{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ .search-bt .tooltip,
+ .voice-bt .tooltip,
+ .last-bts .tooltip {
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 2px;
+  font-size: 12px;
+  bottom: -30px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+ }
+
+ .search-bt:hover .tooltip,
+ .voice-bt:hover .tooltip,
+ .last-bts:hover .tooltip {
+  opacity: 1;
+ }
+ 
+.voice-bt{
+  position: relative;
+  height:40px;
+  width:40px;
+  border-radius:50%;
+  border:none;
+  background-color: rgb(244, 242, 242);
+}
+
+.voice-icon{
+  height: 25px;
+}
+
+.right-sec {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  width: 180px;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+  
+.upload{
+  height: 25px;
+
+}
+
+.youtube-apps{
+  height: 25px;
+}
+
+.notifications{
+  height: 25px;
+}
+.my-channel{
+  height: 32px;
+  border-radius:50%;
+}
+.nott-div{
+  position: relative;
+}
+
+.ra9m{
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background-color: rgb(203, 0, 0);
+  color: white;
+  font-size: 10px;
+  padding: 2px 6px;
+  border-style: solid;
+  border-radius: 10px;
+}

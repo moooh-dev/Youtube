@@ -1,0 +1,94 @@
+
+
+.vd-pic{
+  width:100%;
+  margin-bottom:12px;
+ }
+
+.pic-row{
+  position: relative;
+  cursor: pointer;
+}
+
+ .vid-time{
+  background-color: black;
+  color: white;
+  position: absolute;
+  right: 5px;
+  bottom: 22px;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px;
+  border-style: solid;
+  border-radius:2px;
+  border-color:black;
+ }
+ /* pyyyyyyyyyyy */
+
+ .vd-tt
+ {
+  width: 200px;
+  margin-top:0px;
+  font-weight:500;
+  margin-bottom:20px;
+  margin-bottom:12px;
+  font-size:14px;
+  line-height:20px;
+  cursor: pointer;
+ }  
+
+ .vd-bnadm,.vd-stat
+ {
+  font-size:12px;
+  margin-bottom:4px;
+  margin-top:0px;
+  color:rgb(96, 96,96);
+ }
+
+ .mouh{
+  display: grid;
+  grid-template-columns: 50px 1fr;
+ }
+ 
+ .syd-tswira
+ {
+  width:36px;
+  border-radius:50%;
+  cursor: pointer;
+ }
+
+ .vid-grid{
+  display:grid;
+  column-gap:16px;
+  row-gap: 40px;
+ }
+
+ @media(max-width:879px){
+  .vid-grid{
+    grid-template-columns: 1fr 1fr;
+  }
+ }
+
+ @media (min-width:880px) and (max-width:999px){
+  .vid-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+ }
+  
+ @media(min-width:1000px){
+  .vid-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+ }
+  
+ 
+
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 

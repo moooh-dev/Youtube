@@ -1,0 +1,39 @@
+.side-bar{
+  padding-top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: fixed; 
+  bottom: 0px;
+  left:0px;
+  top:55px;
+  width:72px;
+  z-index:200;
+}
+
+.s-icons{
+  background-color: white;
+  height: 85px;
+  width: 74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor:pointer;
+}
+
+.s-icons:hover{
+  background-color: rgb(235, 235, 235);
+}
+
+.s-icons img{
+  height: 24px;
+  margin-bottom: 4px;
+}
+
+.s-icons div{
+color: black;
+font-size: 10px;
+}
